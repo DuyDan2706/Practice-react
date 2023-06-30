@@ -7,12 +7,13 @@ import { Row } from "react-bootstrap";
 function App() {
   return (
     <div className="app-container">
-      {/* <Container>
-        <Row> */}
+   
           <Header />
+          <Container>
           <TableUsers />
-        {/* </Row>
-      </Container> */}
+          </Container>
+        
+       
     </div>
   );
 }
